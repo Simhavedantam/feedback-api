@@ -6,7 +6,7 @@ app = Flask(__name__)
 def health():
     return jsonify({
         "status": "ok",
-        "message": "Cloud Run is working"
+        "message": "This is cloud run using github actions"
     })
 
 if __name__ == "__main__":
